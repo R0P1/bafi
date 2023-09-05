@@ -12,8 +12,8 @@ echo Collect information about WI-FI profiles stored on the computer.
 echo ----------------------------------------------------------------
 echo                                 https://github.com/r0p1/bafi.git
 netsh wlan show profile
-set /p user_profile=[BAFI] Select a user profile (or type 'E' to exit): 
-if "%user_profile%"==E (
+SET /p user_profile="[BAFI] Select a user profile (or type 'E' to exit):" 
+if %user_profile%=="E" (
     exit /b 0
 )
 netsh wlan show profile %user_profile% key=clear
