@@ -9,6 +9,6 @@ while True:
         exit(0)
     else:
         
-        os.system(f"{perintah} {user_profile} key=clear")
+        os.system(f"{command} {user_profile} key=clear")
         c = input("Press any key to continue...")
         continue
