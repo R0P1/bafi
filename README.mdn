@@ -1,0 +1,4 @@
+```
+netsh wlan show profile
+netsh wlan shie profile <_user_profile_> key=clear
+```
