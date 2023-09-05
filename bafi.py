@@ -1,8 +1,3 @@
-:: Program : BAFI
-:: Description : Collect information about WI-FI profiles stored on the computer.
-:: Author : R0P1
-:: Github: https://github.com/R0P1/bafi.git
-
 import os
 
 while True:
