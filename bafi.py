@@ -1,6 +1,7 @@
 import os
 
 while True:
+    os.system("cls")
     perintah = "netsh wlan show profile"
     os.system(perintah)
     user_profile = input("Select a user profie (or type 'E' to exit): ")
